@@ -1,28 +1,21 @@
-# 🔒 Secure PHP Login System - Built on Termux (Android)
+# 🔐 Secure PHP Login System - Built on Termux
 
-This project demonstrates how a vulnerable PHP login can be hacked and then secured using modern best practices. Built 100% on Android phone!
+> A fully secure PHP authentication system built entirely on Android using Termux. Protected against SQL Injection & Brute Force attacks.
 
-### 🚀 Features
-- ✅ SQL Injection Protection (Prepared Statements)
-- ✅ Password Hashing with `password_hash()` & `password_verify()`
-- ✅ Brute Force Protection (5 attempts / 2 min lock)
-- ✅ Secure Session Management (session_regenerate_id)
-- ✅ Protected Dashboard & Logout System
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Android](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=android&logoColor=white)
+![Security](https://img.shields.io/badge/Secure-Login-success?style=for-the-badge)
 
-### 📂 Files
-- `login_final.php` - Final secure login
-- `dashboard.php` - Protected dashboard
-- `logout.php` - Logout + session destroy
+⭐ **1 Star** | 🔓 Public Repository | Built by [@dy783082-debug](https://github.com/dy783082-debug)
 
-### 🧪 How I Tested
-1. Created vulnerable lab in Termux
-2. Exploited it using sqlmap
-3. Fixed it with prepared statements
-4. Added brute force & session security
+### ✨ Features
 
-### 👨‍💻 Built By
-Santosh DY | Ethical Hacking Learner | Termux Lab
-> Built entirely on Android phone using Termux - No PC needed!
+- ✅ **SQL Injection Protection** - Using Prepared Statements
+- ✅ **Brute Force Protection** - Login attempt limiting
+- ✅ **Password Hashing** - Secure `password_hash()` & `password_verify()`
+- ✅ **Session Management** - Secure session handling
+- ✅ **Responsive UI** - Works on Mobile & Desktop
+- ✅ **Built Entirely on Android** - No PC needed, only Termux!
 
-### 🛡️ Skills Demonstrated
-PHP, SQLite, Security, Ethical Hacking, GitHub
+### 📁 Project Structure
